@@ -1,0 +1,21 @@
+{
+  "name": "todo-crud",
+  "homepage": "https://github.com/hannahhall/todo-crud",
+  "authors": [
+    "Hannah Hall <hannahkhall13@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "firebase": "^3.0.3"
+  }
+}

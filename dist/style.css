@@ -1,0 +1,13 @@
+div {
+	text-align: center;
+}
+
+td,
+th,
+h3 {
+	text-align: center;
+}
+
+.buttonSubmit {
+	margin: 1em;
+}

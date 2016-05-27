@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12"><h1>Todo App</h1></div>
+		</div>
+		<div class="login">
+			<div class="row">
+     <div class="login">
+        <h2>Login</h2>
+        <form>
+          <input class="form-control" type="text" placeholder="user@example.com">
+          <input class="form-control" type="password" placeholder="P@s$w0rD">
+          <input class="btn btn-warning" type="button" value="Register">
+          <input class="btn btn-primary" type="submit" value="Login">
+        </form>
+      </div>
+			</div>
+		</div>
+		<div class="app" hidden>
+			<div class=row>
+			<div class="col-md-3">
+				Logged in as: <span class="logged_in_user"></span>
+				<button type="submit" class="btn btn-danger logout">Log Out</button>
+			</div>
+			<div class="col-md-6">
+				<div class="add">
+					<form>
+						<input type="text" class="form-control inputToDo" placeholder="add a todo item" autofocus>
+						<button type="button" class="btn btn-primary buttonSubmit">Submit</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="index col-md-4">
+					<table class="table">
+						<h3>To Do List</h3>
+						<thead>
+							<tr>
+								<th>Task</th>
+								<th>Actions</th>
+							</tr>
+						</thead>
+						<tbody class="toDo">
+						</tbody>
+						</table>
+				</div>
+				<div class="col-md-4">
+					<table class="table">
+						<h3 class="margin">Completed Tasks</h3>
+						<thead>
+							<tr>
+								<th>Task</th>
+								<th>Actions</th>
+							</tr>
+						</thead>
+						<tbody class="completed">
+						</tbody>
+					</table>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/firebase/firebase.js"></script>
+	<script type="text/javascript" src="login.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
